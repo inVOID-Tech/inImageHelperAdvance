@@ -2,7 +2,7 @@
 Helps organisations to collect pictures of customerID cards &amp; Selfies in a more secure &amp; friendly manner. It is accompanied by fraud check methods &amp; quality of picture assistance  
 
 ## Minimum Requirements
-- `minSdkVersion 19` 
+- `minSdkVersion 18` 
 - `AndroidX`
 
 ## Getting Started
@@ -21,7 +21,7 @@ Add following lines in your module level ```build.gradle```
 ```
 dependencies {
     ....
-    implementation 'co.invoid.android:imagehelperadvance:1.0.0rc'
+    implementation 'co.invoid.android:imagehelperadvance:1.0.0rc3'
 }
 ```
 
