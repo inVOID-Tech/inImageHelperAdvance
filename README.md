@@ -1,5 +1,5 @@
 # inImageHelperAdvance
-Helps organisations to collect pictures of customerID cards &amp; Selfies in a more secure &amp; friendly manner. It is accompanied by fraud check methods &amp; quality of picture assistance  
+Helps organisations to collect pictures of customerID cards &amp; Selfies in a more secure &amp; friendly manner. It is accompanied by sanity check methods &amp; quality of picture assistance  
 
 ## Minimum Requirements
 - `minSdkVersion 18` 
