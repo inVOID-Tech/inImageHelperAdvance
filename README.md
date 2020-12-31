@@ -21,7 +21,7 @@ Add following lines in your module level ```build.gradle```
 ```
 dependencies {
     ....
-    implementation 'co.invoid.android:imagehelperadvance:1.0.0rc3'
+    implementation 'co.invoid.android:imagehelperadvance:1.0.0rc4'
 }
 ```
 
@@ -77,8 +77,10 @@ To Obtain your organisation's authkey, contact us at hello@invoid.co
 
 ## Response returned from the SDK
 - Selfie file path ```imageHelperResult.getSelfieResult().getImageFilePath()```
-- Document front image file path ```imageHelperResult.getDocumentResult().getDocFrontPath()```
-- Document back image file path ```imageHelperResult.getDocumentResult().getDocBackPath()```
+- Document front cropped image file path ```imageHelperResult.getDocumentResult().getDocFrontPath()```
+- Document front full image file path ```imageHelperResult.getDocumentResult().getDocFullFrontPath()```
+- Document back cropped image file path ```imageHelperResult.getDocumentResult().getDocBackPath()```
+- Document back full image file path ```imageHelperResult.getDocumentResult().getDocFullBackPath()```
 - Glare in front document image ```imageHelperResult.getDocumentResult().isGlareInFront()```
 - Glare in back document image ```imageHelperResult.getDocumentResult().isGlareInBack()```
 - Blur in front document image ```imageHelperResult.getDocumentResult().isBlurInFront()```
