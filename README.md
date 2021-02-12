@@ -12,7 +12,7 @@ Add following lines in your root ```build.gradle```
 allprojects {
     repositories {
         ...
-        maven { url "https://dl.bintray.com/invoidandroid12/android/" }
+        maven { url "https://gitlab.com/api/v4/projects/24251481/packages/maven" }
     }
 }
 ```
@@ -21,14 +21,14 @@ Add following lines in your module level ```build.gradle```
 ```
 dependencies {
     ....
-    implementation 'co.invoid.android:imagehelperadvance:1.0.0rc3'
+    implementation 'co.invoid.android:imagehelperadvance:1.0.1rc1'
 }
 ```
 
 This library also uses some common android libraries. So if you are not already using them then make sure you add these libraries to your module level `build.gradle`
-- `androidx.appcompat:appcompat:1.1.0`
-- `androidx.constraintlayout:constraintlayout:1.1.3`
-- `com.google.android.material:material:1.1.0`
+- `androidx.appcompat:appcompat:1.2.0`
+- `androidx.constraintlayout:constraintlayout:2.0.4`
+- `com.google.android.material:material:1.3.0`
 
 Since this library is using compiled native code so we recommend to split the apk based on the architecture of the processor to reduce your app size. However, if you are using 
 App Bundle to publish app then you don't have to do anything.
