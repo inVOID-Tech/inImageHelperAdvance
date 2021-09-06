@@ -21,7 +21,7 @@ Add following lines in your module level ```build.gradle```
 ```
 dependencies {
     ....
-    implementation 'co.invoid.android:imagehelperadvance:1.0.1rc1'
+    implementation 'co.invoid.android:imagehelperadvance:1.0.2'
 }
 ```
 
